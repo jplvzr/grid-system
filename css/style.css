@@ -6,7 +6,8 @@ header {
     background-color: black;
 }
 
-nav > ul {
+nav > ul,
+.col-3 ul {
     list-style: none;
     margin-top: 30px;
 }
@@ -67,17 +68,75 @@ h3 span {
     border: 1px solid gray;
 }
 
+a img p {
+    text-decoration: none;
+    color: blue;
+    font-size: 10px;
+}
+
+.small {
+    width: 15px;
+}
+
+.col-3 {
+    font-size: 12px;
+}
+
+ul b {
+    font-size: 15px;
+    color: gray;
+}
+ul li {
+    color: blue;
+    padding-left: 5px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-3 span a {
+    display: inline-block;
+}
+
+footer {
+    width: 960px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 .footercontainer {
     background-color: gray;
+    padding: 20px 10px;
+    color: white;
 }
 
 .footerlinks ul {
     list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .footerlinks ul li {
     display: inline-block;
+    padding-right: 10px;
 }
 .footerlinks ul li a {
     text-decoration: none;
-    color: white;
+    color: #c7c7c7;
+    font-size: 12px;
+}
+
+div .text-center {
+    font-size: 10px;
+    color: #6c6c6c;
+}
+
+.link-medio {
+    text-decoration: none;
+    color: blue;
+}
+.link-final {
+    text-decoration: none;
+    color: #c7c7c7;
 }
